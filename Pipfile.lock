@@ -15,7 +15,8 @@
     },
     "default": {
         "python-deriv-api": {
-            "version": "== 0.1.6"
+            "editable": true,
+            "path": "."
         },
         "reactivex": {
             "hashes": [

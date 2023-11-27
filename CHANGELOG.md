@@ -26,7 +26,7 @@ Added middleware support
 
 ## 0.1.1
 
-### Fixed:
+### Fixed
 
 Fixed a PyPI constraint where the package can only be installed on python ==3.9.6
 

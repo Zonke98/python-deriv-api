@@ -310,7 +310,7 @@ async def test_response_error():
     wsconnection.data.append(r50_data) # add back r50 again
     #will send a `forget` if get a response again
     await asyncio.sleep(0.1)
-    assert wsconnection.called['send'][-1] == '{"forget": "A111111", "req_id": 2}'
+    assert wsconnection.called['send'][-1] == '{"forget": "A111111", "req_id": 3}'
     poc_data = {
         'echo_req': {'proposal_open_contract': 1, 'subscribe': 1},
         'msg_type': 'proposal_open_contract',
