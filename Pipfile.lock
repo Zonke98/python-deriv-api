@@ -15,7 +15,7 @@
     },
     "default": {
         "python-deriv-api": {
-            "version": "==0.1.6"
+            "version": "==0.1.7"
         },
         "reactivex": {
             "hashes": [
@@ -264,12 +264,12 @@
         },
         "pytest-asyncio": {
             "hashes": [
-                "sha256:16cf40bdf2b4fb7fc8e4b82bd05ce3fbcd454cbf7b92afc445fe299dabb88213",
-                "sha256:7659bdb0a9eb9c6e3ef992eef11a2b3e69697800ad02fb06374a210d85b29f91",
-                "sha256:8fafa6c52161addfd41ee7ab35f11836c5a16ec208f93ee388f752bea3493a84"
+                "sha256:49c1b800d7e700873ef9200d6b1deef94be45b28de2df4ee687f4e509f6f26c3",
+                "sha256:7f713cf697de146cb8583b6efad7414f563d1c393168a4892384f181263195ea"
             ],
             "index": "pypi",
-            "version": "==0.18.3"
+            "markers": "python_version >= '3.8'",
+            "version": "==0.23.0b0"
         },
         "pytest-mock": {
             "hashes": [
